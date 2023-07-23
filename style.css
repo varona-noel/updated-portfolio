@@ -1,0 +1,174 @@
+
+header {
+    background-image: url("http://u.cubeupload.com/electstar/alejandroescamilla5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin-top: 0px;
+  }
+  
+  .navbar .nav > li > a {
+    color: brown;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 22px;
+  }
+  
+  body {
+    background-color: rgba(238, 223, 204, 0.332);
+  }
+  
+  h1 {
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 9vw;
+    color: white;
+    padding-top: 300px;
+    text-shadow: 10px 10px 10px #000;
+  }
+  
+  h2 {
+    font-family: 'cherry cream soda', cursive;
+    font-size: 45px;
+    color: brown;
+    margin-top: 8px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  h3 {
+    font-family: 'cherry cream soda', cursive;
+    font-size: 70px;
+    color: brown;
+    margin: 55px 0px 55px 0px;
+    text-shadow: 3px 3px 3px #000
+  }
+  
+  h4 {
+    font-family: 'cherry cream soda', cursive;
+    font-size: 65px;
+    color: brown;
+    margin: 90px 0px 70px 0px;
+    text-shadow: 3px 3px 3px #fff;
+  }
+  
+  h5 {
+    font-family: 'cherry cream soda', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+  
+  h6 {
+    font-family: 'cherry cream soda', cursive;
+    font-size: 65px;
+    color: white;
+    margin: 80px 0px 30px 0px;
+    text-shadow: 10px 10px 8px #000;
+  }
+  
+  p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 24px;
+    margin: 70px 30px 150px 30px;
+  }
+  
+  hr.style-one {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(165, 42, 42, 0), rgba(165, 42, 42, 0.75), rgba(165, 42, 42, 0));
+  }
+  
+  hr.style-two {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  }
+  
+  hr.style-three {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(165, 42, 42, 0), rgba(165, 42, 42, 0.75), rgba(165, 42, 42, 0));
+  }
+  
+  hr.style-four {
+    border: 1px;
+    height: 5px;
+    box-shadow: 0 0 10px 1px white;
+  }
+  
+  .portFo {
+    background-color: black;
+    background-size: cover;
+    background: repeat-y
+    height: 1900px;
+  }
+  
+  .contactInfo {
+    background-image: url('https://images.unsplash.com/photo-1445754574409-bcd715e18017?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cb38e88e8e9fd55ebd5b2d9f0b5c5926');
+    background-size: 100%;
+    height: 750px;
+  }
+  
+  .devicons {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .centerBlock {
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+  }
+  
+  .btsize {
+    font-size: 90px;
+  }
+  
+  .col-centered{
+  float: none;
+  margin: 0 auto;
+  }
+  
+  .img-responsive {
+    display: block;
+    height: 287px;
+    width: 600px;
+  }
+  
+  .brand-style {
+    color: brown;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 22px;
+  }
+  
+  .heading {
+    padding-bottom: 20px;
+  }
+  
+  p {
+    font-family: 'lobster', cursive;
+    margin-bottom: 80px;
+  }
+  
+  /* mobile small (iphone 3/4/5) ----------- */
+  @media only screen and (max-width : 320px)  {
+    header {
+      background-image: none;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      margin-top: -180px;
+    }
+  
+  }
+  /* mobile large (android) ----------- */
+  @media only screen and (max-width : 685px)  {
+    header {
+      background-image: none;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      margin-top: -180px;
+    }
+  }
